@@ -1,0 +1,38 @@
+.container{
+    width: 900px;
+    margin: auto;
+    background-color: aqua;
+    height: 100px;
+}
+
+.navBar{
+    background-color: black;
+    overflow: hidden;
+}
+
+.navBar li{
+    float: left;
+    margin: 10px 13px;
+    list-style: none;
+}  
+
+
+.navBar li a{
+    color: wheat;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navBar li a:hover{
+    color: red;
+}
+
+.search {
+    float: right;
+    padding: 5px 15px;
+}
+
+.search input{
+    border-radius: 5px;
+    padding: 4px 10px;
+}
