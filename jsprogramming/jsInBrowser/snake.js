@@ -39,4 +39,4 @@ let match = (cpu,user) => {
 }
 
 let result = match(cpu,user);
-console.log(`cpu : ${cpu} user : ${user} Winner : ${result}`)
+document.write(`<h3>cpu : ${cpu} user : ${user} Winner : ${result}</h3>`)
