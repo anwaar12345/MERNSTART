@@ -31,7 +31,7 @@ for(let i = 0; i < 10; i++){
     numbers++;
     if(numbers == 5){
         console.error("number is five");
-        window.location.href = "https://www.google.com";
+        // window.location.href = "https://www.google.com";
         break;
     }
 
