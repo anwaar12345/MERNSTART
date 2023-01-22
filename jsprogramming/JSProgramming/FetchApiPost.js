@@ -17,7 +17,7 @@ let createPost = async (data) => {
     
 let main = async (data) => {
     let result = await createPost(data);
-    console.log(result,123);
+    console.log(result);
 }
 
 main();
