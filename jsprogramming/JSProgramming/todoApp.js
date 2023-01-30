@@ -4,7 +4,7 @@ window.addEventListener("load",() => {
     let taskList = JSON.parse(localStorage.getItem('todos'));
     let list = document.getElementById("todos");
     if(!taskList)
-        list.innerHTML = `<li class="list-group-item">No Tasks in Do</li>`;
+        list.innerHTML = `<li class="list-group-item">No Tasks to Do</li>`;
     
 
     taskList?.forEach((element,index) => {
